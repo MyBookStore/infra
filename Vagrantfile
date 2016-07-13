@@ -6,7 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure(2) do |config|
-  config.vm.box = "base_box"
+  config.vm.box = "hashicorp/precise64"
 
   config.ssh.forward_agent = true
   require_relative './tasks/repositories'  
