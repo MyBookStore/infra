@@ -13,8 +13,6 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
 config.vm.box     = ENV['BOX'] || 'trusty64-complete-setup'
-  config.vm.box_url = 'http://172.17.0.150/boxes/fp-base-box-13-May-2016.box'
-
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
